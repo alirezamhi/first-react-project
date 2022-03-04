@@ -1,0 +1,33 @@
+.card{
+    background-color: #ececec;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 30px 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px grey;
+    width: 200px;
+    height: 250px;
+}
+.card img {
+    width: 200px;
+    height: 150px;
+}
+.card h3{
+    color: #696969;
+    text-align: center;
+    margin: 15px 0px;
+}
+.card p {
+    text-align: center;
+    margin: 10px 30px;
+    background-color: rgb(10, 145, 146);
+    padding:4px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
