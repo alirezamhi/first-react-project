@@ -2,11 +2,27 @@ import React, { Component } from 'react';
 import style from "./search.module.css";
 
 class search extends Component {
+    constructor (){
+        super();
+        this.state={
+            text : "",
+        }
+    }
+    changeHandler = (event) => {
+        this.setState({
+            text : event.target.value,
+        })
+    }
     render() {
         return (
             <div className={style.container}>
                 <h1>search what you want</h1>
-                <input type={search} placeholder="search..."/>
+                <div>
+                    <input type="search" value={this.state.text} placeholder="search..." onChange={this.changeHandler}/>
+                    <br />
+                    <br />
+                    <span>{this.state.text}</span>
+                </div>
             </div>
         );
     }
