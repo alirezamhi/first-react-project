@@ -30,7 +30,7 @@ class card extends Component {
         
         return (
             <div className={style.card}>
-                <img src={image} alt="phone"/>
+                <img src={image} />
                 <h3>{name}</h3>
                 <p>{cost} {counter ? `* ${counter} = ${counter * Number(cost.split(" ")[0])}$` : ""}</p>
                 <hr />

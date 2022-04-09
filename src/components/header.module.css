@@ -26,6 +26,10 @@
     padding: 10px;
     cursor: pointer;
 }
-.list li:hover{
+.list li a {
+    color: #fff;
+    text-decoration: none;
+}
+.list li a:hover{
     color: #30c0e4;
 }

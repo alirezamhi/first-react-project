@@ -9,16 +9,18 @@
     overflow: hidden;
     box-shadow: 10px 10px 5px grey;
     width: 200px;
-    height: 320px;
+    height:350px ;
 }
 .card img {
     width: 200px;
     height: 150px;
+    object-fit: cover;
 }
 .card h3{
     color: #696969;
     text-align: center;
     margin: 15px 0px;
+    font-size: 10px;
 }
 .card p {
     text-align: center;
