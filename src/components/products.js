@@ -19,7 +19,12 @@ class products extends Component {
         render() {
         return (
             <div className={Style.container}>
-                {this.state.products.map(product => <Card key={product.id} image={product.image} name={product.title} cost={`${product.price} $`}/>)}
+                {
+                    this.state.products.length ? 
+                    this.state.products.map(product => <Card key={product.id} image={product.image} name={product.title} cost={`${product.price} $`}/>) :
+                    <h1>Loding ...</h1>
+                    
+                }
             </div>
         );
     }
